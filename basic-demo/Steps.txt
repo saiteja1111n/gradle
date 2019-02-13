@@ -10,3 +10,14 @@ Directory structure:
 +-- gradlew  
 +-- gradlew.bat  
 +-- settings.gradle  
+
+
+Create task
+Explaination with example -
+To copy data from 'src' folder to 'dest' folder. Add the following to build.gradle 
+
+task copy(type: Copy, group: "Custom", description: "Copies sources to the dest directory") {
+    from "src"
+    into "dest"
+}
+
