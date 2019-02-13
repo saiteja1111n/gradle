@@ -1,0 +1,12 @@
+Initialize a project
+1. create new directory
+2. execute 'gradle init' in the new directory. This creates new project with necessary directories.
+Directory structure:
++-- build.gradle  
++-- gradle
+¦   +-- wrapper
+¦       +-- gradle-wrapper.jar  
+¦       +-- gradle-wrapper.properties  
++-- gradlew  
++-- gradlew.bat  
++-- settings.gradle  
