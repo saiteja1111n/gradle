@@ -1,0 +1,4 @@
+Steps:
+gradle build --scan
+
+This generates a url through which we can see what's happened
